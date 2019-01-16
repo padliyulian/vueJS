@@ -1,0 +1,25 @@
+<template>
+  <div class="section-todo">
+    <div v-for="todo in todos" :key="todo.id">
+      <TodoItem :todo="todo" v-on:del-todo="$emit('del-todo', todo.id)"/>
+    </div>
+  </div>
+</template>
+
+<script>
+import TodoItem from "./TodoItem.vue";
+
+export default {
+  name: "Todos",
+  props: ["todos"],
+  components: {
+    TodoItem
+  },
+  data() {
+    return {};
+  }
+};
+</script>
+
+<style scoped>
+</style>

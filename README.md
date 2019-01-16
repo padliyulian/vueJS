@@ -1,4 +1,7 @@
-# ok
+# vue
+- vue-router
+- fetch api using axios
+- props, emit, directives
 
 ## Project setup
 ```
