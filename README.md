@@ -1,4 +1,9 @@
 # bootstrap4-vue
+- bootstrap4
+- jquery
+- popper.js
+- font-awesome
+- google fonts
 
 ## Project setup
 ```
